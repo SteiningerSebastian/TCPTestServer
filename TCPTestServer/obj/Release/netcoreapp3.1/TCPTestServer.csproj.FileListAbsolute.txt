@@ -1,0 +1,13 @@
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\bin\Release\netcoreapp3.1\TCPTestServer.exe
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\bin\Release\netcoreapp3.1\script.tdl
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\bin\Release\netcoreapp3.1\TCPTestServer.deps.json
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\bin\Release\netcoreapp3.1\TCPTestServer.runtimeconfig.json
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\bin\Release\netcoreapp3.1\TCPTestServer.runtimeconfig.dev.json
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\bin\Release\netcoreapp3.1\TCPTestServer.dll
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\bin\Release\netcoreapp3.1\TCPTestServer.pdb
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\obj\Release\netcoreapp3.1\TCPTestServer.Properties.Resources.resources
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\obj\Release\netcoreapp3.1\TCPTestServer.csproj.GenerateResource.cache
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\obj\Release\netcoreapp3.1\TCPTestServer.AssemblyInfoInputs.cache
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\obj\Release\netcoreapp3.1\TCPTestServer.AssemblyInfo.cs
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\obj\Release\netcoreapp3.1\TCPTestServer.dll
+D:\OneDrive\programming\Anderes\TCPTestServer\TCPTestServer\obj\Release\netcoreapp3.1\TCPTestServer.pdb
