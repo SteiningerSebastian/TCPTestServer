@@ -60,6 +60,12 @@ namespace TCPTestServer
             //}
         }
 
+        private string DeleteUnneededSpaces(string script)
+        {
+
+            return "";
+        }
+
         /// <summary>
         /// Handesl a received message
         /// </summary>
