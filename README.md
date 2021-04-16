@@ -1,6 +1,6 @@
 # TCP Test Server
-The TcpTestServer is a small tcp server with a own integrated and simple scripting language.
-It should me used for testing tcp-client implementation and apis.
+The TcpTestServer is a small tcp server with a simple scripting language.
+It should be used for testing tcp-clients implementation and apis.
 
 ## The script (example)
 ```ruby
