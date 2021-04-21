@@ -62,7 +62,6 @@ namespace TCPTestServer
 
         private string DeleteUnneededSpaces(string script)
         {
-
             return "";
         }
 
@@ -152,7 +151,6 @@ namespace TCPTestServer
                                                         tcpServer.SendToAll(response.Remove(i, 1).Remove(response.Remove(i, 1).Length - 1, 1));
                                                         break;
                                                     }
-                                                    continue;
                                                 }
                                             }
                                             else if (line.Contains("send"))
@@ -200,7 +198,7 @@ namespace TCPTestServer
 
                                                                 if (!variables.ContainsKey(response))
                                                                 {
-                                                                    tcpServer.Send(sender, parameters.Split(",")[0].Remove(0, i+1).Remove(parameters.Split(",")[0].Remove(0, i+1).Length - 1, 1));
+                                                                    tcpServer.Send(sender, parameters.Split(",")[0].Remove(0, i + 1).Remove(parameters.Split(",")[0].Remove(0, i + 1).Length - 1, 1));
                                                                     break;
                                                                 }
                                                                 else if (variables.ContainsKey(response))
@@ -225,6 +223,22 @@ namespace TCPTestServer
                                                             throw exception;
                                                         }
                                                     }
+                                                }
+                                            }
+                                            else if (line.Contains("log"))
+                                            {
+                                                string parameters = line.Split("(")[1].Remove(line.Split("(")[1].Length - 1, 1).Replace(" ", "");
+                                                string str = parameters.Split(",")[0];
+                                                if (variables.ContainsKey(str) && variables[str].ToString() == ReceiveVarHeader)
+                                                {
+                                                    Console.WriteLine(message);
+                                                }else if (variables.ContainsKey(str))
+                                                {
+                                                    Console.WriteLine(variables[str]);
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine(str.Split('"')[1]);
                                                 }
                                             }
                                         }
