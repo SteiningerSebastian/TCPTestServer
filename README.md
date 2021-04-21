@@ -29,4 +29,9 @@ end
 if rec==rec:
 	send(rec, rec.id)
 end
+
+#write value into console
+if rec==rec:
+	log(rec)
+end
 ```
